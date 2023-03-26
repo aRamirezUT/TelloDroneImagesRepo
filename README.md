@@ -1,5 +1,5 @@
 # TelloDroneImagesRepo
-Images taken from our TelloDrone for https://github.com/aRamirezUT/TelloDrone and models created from the images in 3D Zephyr
+Images taken from our TelloDrone for https://github.com/aRamirezUT/TelloDrone and models created from the images in 3DF Zephyr
 
 # License
 The Unlicense
