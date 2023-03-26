@@ -1,0 +1,75 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>SequentialReconstructionEngine SFM report.</title>
+</head>
+<h1>SequentialSfMReconstructionEngine</h1>
+<hr>Dataset info:Views count: 21<br><h1>Essential Matrix.</h1>
+-------------------------------<br>-- Robust Essential matrix: <0,5> images: DJI_0042.JPG,DJI_0047.JPG<br>-- Threshold: 23.9638<br>-- Resection status: OK<br>-- Nb points used for robust Essential matrix estimation: 732<br>-- Nb points validated by robust estimation: 731<br>-- % points validated: 0.998634<br>-------------------------------<br><h2>Residual of the robust estimation (Initial triangulation). Thresholded at: 23.9638</h2>
+<h2>Histogram of residuals</h2>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00004,1.53625,3.07247,4.60868,6.14489,7.68110,9.21731,10.75352,12.28973,13.82594,];
+var data1= [2785.00000,126.00000,7.00000,3.00000,1.00000,0.00000,1.00000,0.00000,0.00000,0.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[23.96378,0.00000], {fixed:true});
+var p3 = board.create('point',[23.96378,2785.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-2.76514,3342.00000,16.59112,-557.00000]);
+</script>
+<hr><h1>Resection of Image index: <3> image: DJI_0045.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <3> image: DJI_0045.JPG<br>-- Threshold: 5.87428<br>-- Resection status: OK<br>-- Nb points used for Resection: 655<br>-- Nb points validated by robust estimation: 637<br>-- % points validated: 0.972519<br>-------------------------------<br><h1>Resection of Image index: <1> image: DJI_0043.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <1> image: DJI_0043.JPG<br>-- Threshold: 5.13631<br>-- Resection status: OK<br>-- Nb points used for Resection: 2354<br>-- Nb points validated by robust estimation: 2020<br>-- % points validated: 0.858114<br>-------------------------------<br><h1>Resection of Image index: <2> image: DJI_0044.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <2> image: DJI_0044.JPG<br>-- Threshold: 6.0088<br>-- Resection status: OK<br>-- Nb points used for Resection: 7585<br>-- Nb points validated by robust estimation: 7427<br>-- % points validated: 0.979169<br>-------------------------------<br><h1>Resection of Image index: <4> image: DJI_0046.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <4> image: DJI_0046.JPG<br>-- Threshold: 5.91364<br>-- Resection status: OK<br>-- Nb points used for Resection: 10857<br>-- Nb points validated by robust estimation: 10113<br>-- % points validated: 0.931473<br>-------------------------------<br><h1>Resection of Image index: <6> image: DJI_0048.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <6> image: DJI_0048.JPG<br>-- Threshold: 3.36394<br>-- Resection status: OK<br>-- Nb points used for Resection: 8269<br>-- Nb points validated by robust estimation: 8023<br>-- % points validated: 0.97025<br>-------------------------------<br><h1>Resection of Image index: <7> image: DJI_0049.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <7> image: DJI_0049.JPG<br>-- Threshold: 2.98168<br>-- Resection status: OK<br>-- Nb points used for Resection: 3507<br>-- Nb points validated by robust estimation: 3405<br>-- % points validated: 0.970915<br>-------------------------------<br><h1>Resection of Image index: <8> image: DJI_0050.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <8> image: DJI_0050.JPG<br>-- Threshold: 2.53559<br>-- Resection status: OK<br>-- Nb points used for Resection: 1582<br>-- Nb points validated by robust estimation: 1540<br>-- % points validated: 0.973451<br>-------------------------------<br><h1>Resection of Image index: <9> image: DJI_0051.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <9> image: DJI_0051.JPG<br>-- Threshold: 2.5176<br>-- Resection status: OK<br>-- Nb points used for Resection: 1303<br>-- Nb points validated by robust estimation: 1269<br>-- % points validated: 0.973906<br>-------------------------------<br><h1>Resection of Image index: <10> image: DJI_0052.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <10> image: DJI_0052.JPG<br>-- Threshold: 2.38575<br>-- Resection status: OK<br>-- Nb points used for Resection: 1576<br>-- Nb points validated by robust estimation: 1530<br>-- % points validated: 0.970812<br>-------------------------------<br><h1>Resection of Image index: <11> image: DJI_0053.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <11> image: DJI_0053.JPG<br>-- Threshold: 2.28047<br>-- Resection status: OK<br>-- Nb points used for Resection: 1742<br>-- Nb points validated by robust estimation: 1700<br>-- % points validated: 0.97589<br>-------------------------------<br><h1>Resection of Image index: <12> image: DJI_0054.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <12> image: DJI_0054.JPG<br>-- Threshold: 2.40655<br>-- Resection status: OK<br>-- Nb points used for Resection: 1358<br>-- Nb points validated by robust estimation: 1324<br>-- % points validated: 0.974963<br>-------------------------------<br><h1>Resection of Image index: <13> image: DJI_0055.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <13> image: DJI_0055.JPG<br>-- Threshold: 2.604<br>-- Resection status: OK<br>-- Nb points used for Resection: 1523<br>-- Nb points validated by robust estimation: 1491<br>-- % points validated: 0.978989<br>-------------------------------<br><h1>Resection of Image index: <14> image: DJI_0056.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <14> image: DJI_0056.JPG<br>-- Threshold: 2.22203<br>-- Resection status: OK<br>-- Nb points used for Resection: 1968<br>-- Nb points validated by robust estimation: 1904<br>-- % points validated: 0.96748<br>-------------------------------<br><h1>Resection of Image index: <15> image: DJI_0057.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <15> image: DJI_0057.JPG<br>-- Threshold: 2.41903<br>-- Resection status: OK<br>-- Nb points used for Resection: 1961<br>-- Nb points validated by robust estimation: 1902<br>-- % points validated: 0.969913<br>-------------------------------<br><h1>Resection of Image index: <16> image: DJI_0058.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <16> image: DJI_0058.JPG<br>-- Threshold: 2.49675<br>-- Resection status: OK<br>-- Nb points used for Resection: 1701<br>-- Nb points validated by robust estimation: 1652<br>-- % points validated: 0.971193<br>-------------------------------<br><h1>Resection of Image index: <17> image: DJI_0059.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <17> image: DJI_0059.JPG<br>-- Threshold: 2.577<br>-- Resection status: OK<br>-- Nb points used for Resection: 1829<br>-- Nb points validated by robust estimation: 1781<br>-- % points validated: 0.973756<br>-------------------------------<br><h1>Resection of Image index: <18> image: DJI_0060.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <18> image: DJI_0060.JPG<br>-- Threshold: 2.86146<br>-- Resection status: OK<br>-- Nb points used for Resection: 1341<br>-- Nb points validated by robust estimation: 1316<br>-- % points validated: 0.981357<br>-------------------------------<br><h1>Resection of Image index: <19> image: DJI_0061.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <19> image: DJI_0061.JPG<br>-- Threshold: 2.74029<br>-- Resection status: OK<br>-- Nb points used for Resection: 1164<br>-- Nb points validated by robust estimation: 1129<br>-- % points validated: 0.969931<br>-------------------------------<br><h1>Resection of Image index: <20> image: DJI_0062.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <20> image: DJI_0062.JPG<br>-- Threshold: 2.2063<br>-- Resection status: OK<br>-- Nb points used for Resection: 1966<br>-- Nb points validated by robust estimation: 1930<br>-- % points validated: 0.981689<br>-------------------------------<br><hr><h1>Structure from Motion process finished.</h1>
+-------------------------------<br>-- Structure from Motion (statistics):<br>-- #Camera calibrated: 21 from 21 input images.<br>-- #Tracks, #3D points: 86032<br>-------------------------------<br><h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.42337,0.84674,1.27011,1.69349,2.11686,2.54023,2.96360,3.38697,3.81034,];
+var data1= [389481.00000,56319.00000,10492.00000,2414.00000,672.00000,215.00000,59.00000,19.00000,11.00000,3.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.76207,467376.60000,4.57241,-77892.60000]);
+</script>
+</html>
